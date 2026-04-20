@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>✈️ Travel Booking</h1>
+
+    <!-- Login -->
+    <div class="login-box">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p id="login-msg"></p>
+    </div>
+
+    <!-- Flight Search -->
+    <div class="search-box">
+        <h2>Search Flights</h2>
+        <input type="text" id="from" placeholder="From">
+        <input type="text" id="to" placeholder="To">
+        <button onclick="searchFlights()">Search</button>
+        <ul id="results"></ul>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
